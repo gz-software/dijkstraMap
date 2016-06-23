@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mapSub>
+  <pointList>
+    <!--type 1.出口 2.商家 3.十字路口-->
+    <point id="1" name="出口处1" x="135" y="70"  type="1" />
+    <point id="2" name="出口处2" x="135" y="560" type="1" />
+    <point id="3" name="出口处3" x="527" y="735" type="1" />
+
+    <point id="4" name="商家1" x="305" y="170" type="2"/>
+    <point id="5" name="商家2" x="455" y="170" type="2" />
+    <point id="6" name="商家3" x="265" y="370" type="2" />
+    <point id="7" name="商家4" x="410" y="410" type="2"/>
+    <point id="8" name="商家5" x="605" y="605" type="2"/>
+    <point id="9" name="商家6" x="605" y="500" type="2"/>
+
+    <point id="10" name="左路路口点" x="185" y="70" type="3"/>
+    <point id="11" name="左路路口点" x="185" y="220" type="3"/>
+    <point id="12" name="左路路口点" x="185" y="330" type="3"/>
+    <point id="13" name="左路路口点" x="185" y="450" type="3"/>
+    <point id="14" name="左路路口点" x="185" y="560" type="3"/>
+
+
+    <point id="15" name="中路路口点" x="360" y="220" type="3"/>
+    <point id="16" name="中路路口点" x="360" y="330" type="3"/>
+    <point id="17" name="中路路口点" x="360" y="450" type="3"/>
+    <point id="18" name="中路路口点" x="360" y="560" type="3"/>
+
+    <point id="19" name="右路路口点" x="525" y="70" type="3"/>
+    <point id="20" name="右路路口点" x="525" y="220" type="3"/>
+    <point id="21" name="右路路口点" x="525" y="330" type="3"/>
+    <point id="22" name="右路路口点" x="525" y="450" type="3"/>
+    <point id="23" name="右路路口点" x="525" y="560" type="3"/>
+    <point id="24" name="右路路口点" x="525" y="560" type="3"/>
+
+   
+
+    <point id="25" name="中间点" x="280" y="220" type="3"/>
+    <point id="26" name="中间点" x="440" y="220" type="3"/>
+    <point id="27" name="中间点" x="280" y="330" type="3"/>
+    <point id="28" name="中间点" x="440" y="330" type="3"/>
+    <point id="29" name="中间点" x="280" y="450" type="3"/>
+    <point id="30" name="中间点" x="440" y="450" type="3"/>
+    <point id="31" name="中间点" x="280" y="560" type="3"/>
+    <point id="32" name="中间点" x="440" y="560" type="3"/>
+    <point id="33" name="中间点" x="630" y="190" type="3"/>
+    <point id="34" name="中间点" x="630" y="370" type="3"/>
+    <point id="35" name="中间点" x="630" y="560" type="3"/>
+    <point id="36" name="中间点" x="525" y="190" type="3"/>
+    <point id="37" name="中间点" x="525" y="370" type="3"/>
+
+
+  </pointList>
+
+  <linkList>
+    <link point1="1" point2="10">
+    </link>
+    <!--纵向-->
+    <!--左路交汇点-->
+    <link point1="10" point2="11">
+    </link>
+    <link point1="11" point2="12">
+    </link>
+    <link point1="12" point2="13">
+    </link>
+    <link point1="13" point2="14">
+    </link>
+    <link point1="14" point2="2">
+    </link>
+
+    
+    <!--右路交汇点-->
+    <link point1="19" point2="36">
+    </link>
+    <link point1="36" point2="20">
+    </link>
+    <link point1="20" point2="21">
+    </link>
+    <link point1="21" point2="37">
+    </link>
+    <link point1="37" point2="22">
+    </link>
+    <link point1="22" point2="23">
+    </link>
+    <link point1="23" point2="24">
+    </link>
+    <link point1="23" point2="3">
+    </link>
+  
+
+    <!--中路交汇点-->
+    <link point1="15" point2="16">
+    </link>
+    <link point1="16" point2="17">
+    </link>
+    <link point1="17" point2="18">
+    </link>
+ 
+    <!--横向-->
+    <!--从上往下-->
+    <!--1-->
+    <link point1="10" point2="19">
+    </link>
+    <link point1="33" point2="36">
+    </link>
+    <!--2-->
+    <link point1="11" point2="25">
+    </link>
+    <link point1="25" point2="15">
+    </link>
+    <link point1="15" point2="26">
+    </link>
+    <link point1="26" point2="20">
+    </link>
+    <link point1="34" point2="37">
+    </link>
+
+    <!--3-->
+    <link point1="12" point2="27">
+    </link>
+    <link point1="27" point2="16">
+    </link>
+    <link point1="16" point2="28">
+    </link>
+    <link point1="28" point2="21">
+    </link>
+
+    <!--4-->
+    <link point1="13" point2="29">
+    </link>
+    <link point1="29" point2="17">
+    </link>
+    <link point1="17" point2="30">
+    </link>
+    <link point1="30" point2="22">
+    </link>
+
+    <!--5-->
+    <link point1="14" point2="31">
+    </link>
+    <link point1="31" point2="18">
+    </link>
+     <link point1="18" point2="32">
+    </link>
+    <link point1="32" point2="23">
+    </link>
+    <link point1="23" point2="35">
+    </link>
+    
+    <!--连接商铺位置-->
+    <link point1="25" point2="4">
+    </link>
+    <link point1="26" point2="5">
+    </link>
+    <link point1="27" point2="6">
+    </link>
+    <link point1="30" point2="7">
+    </link>
+    <link point1="35" point2="8">
+    </link>
+    <link point1="35" point2="9">
+    </link>
+    
+
+  </linkList>
+
+
+
+</mapSub>
+
+
+
