@@ -14,7 +14,7 @@ Tech
 
 Demo site
 -----
-* [Dijkstra Map](http://github.gz-software.com/map/main.html)
+* [Dijkstra Map](http://github.gz-software.com/dijkstraMap/main.html)
 
 
 Feedback 
