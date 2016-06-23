@@ -17,7 +17,7 @@ Demo site
 * [Angular Table](http://github.gz-software.com/map/main.html)
 
 
-Feedback
+Feedback 
 -----
 * Mail: [Pango Leung](mailto:pango@gz-software.com)
 * Website: [Gz-software](http://www.gz-software.com)
