@@ -19,5 +19,4 @@ Demo site
 
 Feedback 
 -----
-* Mail: [Pango Leung](mailto:pango@gz-software.com)
-* Website: [Gz-software](http://www.gz-software.com)
+
